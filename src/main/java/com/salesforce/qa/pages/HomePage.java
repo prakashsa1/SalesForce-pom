@@ -15,10 +15,6 @@ import com.salesforce.qa.util.TestUtil;
 
 public class HomePage extends TestBase{
 
-	public HomePage()
-	{
-		PageFactory.initElements(driver, this);
-	}
 	public NewUsersPage clickOnNewUserLink() throws InterruptedException
 	{
 		Thread.sleep(5000);
