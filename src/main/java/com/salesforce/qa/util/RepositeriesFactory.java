@@ -21,11 +21,14 @@ public class RepositeriesFactory {
 	public static String user="//input[@id='Username']";
 	public static String nickName="//input[@id='CommunityNickname']";
 	public static String roleDropDown="//select[@id='role']";
+
 	public static String userLicense="//select[@id='user_license_id']";
 	public static String userProfile="//select[@id='Profile']";
 	public static String emailCoding="//select[@id='EmailEncodingKey']";
-	
+    public static String manageUsers="//a[contains(text(),'Manage Users')]";
 
+	
+    public static String usersLink="//a[@id='ManageUsers_font']";
 
 
 
